@@ -40,6 +40,7 @@ public class telas {
 	private JLabel resultado_9;
 	private JLabel taboada;
 	private final JLabel taboadacalculeitor = new JLabel("Calculadora de Taboada");
+	private JLabel lblNewLabel_1;
 	
 
 	/**
@@ -187,6 +188,11 @@ public class telas {
 		taboadacalculeitor.setHorizontalAlignment(SwingConstants.CENTER);
 		taboadacalculeitor.setBounds(5, 77, 429, 31);
 		frame.getContentPane().add(taboadacalculeitor);
+		
+		lblNewLabel_1 = new JLabel("Desenvolvido por Brendo");
+		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_1.setBounds(10, 493, 424, 47);
+		frame.getContentPane().add(lblNewLabel_1);
 		
 		
 		
